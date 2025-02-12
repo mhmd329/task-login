@@ -4,7 +4,7 @@ import { loginUser } from "../store/authSlice";
 import { useNavigate } from "react-router-dom";
 import { FaEnvelope, FaLock } from "react-icons/fa";
 import './login.css'
-import logo from '../assets/frame 1216257798.png'
+import logo from '../assets/frame.png'
 const Login = () => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
