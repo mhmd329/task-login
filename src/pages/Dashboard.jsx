@@ -18,7 +18,7 @@ const Dashboard = () => {
 
   return (
     <div>
-      <h2>مرحبًا، {user?.name || "مستخدم"}</h2>
+      <h2>Hello {user?.name || "مستخدم"}</h2>
       <button onClick={() => { dispatch(logout()); navigate("/login"); }}> log out</button>
     </div>
   );
